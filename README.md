@@ -34,7 +34,8 @@ docker stats
 </p>
 </details>
   
-**Container**
+<details><summary>Container</summary>
+<p>
 
 Rodar um novo container com base em uma imagem
 ```sh
@@ -84,7 +85,12 @@ Remover um container da máquina mesmo se estiver sendo executado
 ```sh
 docker rm -f <container-id>
 ```
-**Volume**
+  
+</p>
+</details>
+
+<details><summary>Volume</summary>
+<p>
 
 Rodar um novo container definindo um volume anonimo
 ```sh
@@ -105,7 +111,11 @@ Listar todos os volumes
 docker volume ls
 ```
 
-**Imagem**
+ </p>
+</details>
+  
+<details><summary>Imagem</summary>
+<p>
 
 Buildar uma imagem docker com base em uma Dockerfile
 ```sh
@@ -131,8 +141,12 @@ Subir imagem para o docker hub (repositorio deve ser criado previamente)
 ```sh
 docker push <imagem-id>
 ```
+  
+</p>
+</details>
 
-**Network**
+<details><summary>Network</summary>
+<p>
 
 Listar as redes do nosso ambiente
 ```sh
@@ -170,6 +184,9 @@ Lista detalhes de uma rede
 ```sh
 docker network inspect <network-name>
 ```
+  
+</p>
+</details>
 
 ## License
 
