@@ -1,7 +1,3 @@
-## Comandos para usar no docker
-
-## Comandos
-
 <details><summary>Mais usados</summary>
 <p>
 
