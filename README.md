@@ -2,7 +2,8 @@
 
 ## Comandos
 
-**Mais usados**
+<details><summary>Mais usados</summary>
+<p>
 
 Listar os container que estão sendo executados
 ```sh
@@ -30,6 +31,9 @@ Verificar processos sendo executados pelo docker
 docker stats
 ```
 
+</p>
+</details>
+  
 **Container**
 
 Rodar um novo container com base em uma imagem
