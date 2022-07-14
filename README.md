@@ -69,6 +69,10 @@ Inicia o mesmo container já existente
 ```sh
 docker start <container-name>
 ```
+Roda um comando adicional em um container existente
+```sh
+docker exec -it <container-name>
+```
 Verificar as ultimas ações de um container 
 ```sh
 docker logs <container-id>
